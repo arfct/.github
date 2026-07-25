@@ -27,5 +27,5 @@ The tools Artifact builds with, grouped by area — what each one is used for, n
 - **Cloudflare R2** — object storage for media and other project assets.
 - **Cloudflare Durable Objects** — stateful coordination for realtime and multiplayer features.
 - **Cloudflare D1** — SQL database for projects that need relational storage.
-- **Netlify** — hosts a small number of legacy sites that predate the move to Cloudflare.
+- **Netlify** — hosting for a couple of older sites, alongside Cloudflare.
 - **GitHub Actions** — builds and deploys the public Catalogue Raisonné template to GitHub Pages.
