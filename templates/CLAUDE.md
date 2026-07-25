@@ -2,10 +2,10 @@
 
 This repo follows the Artifact Primer: https://github.com/arfct/.github/tree/main/primer
 
-- Standards (style, commits, branches): primer/standards.md
-- Work tracking: Linear workspace `arfct`, team Artifact (A) — primer/linear.md
-- Bugs: primer/bugs.md · Deployment: primer/deployment.md
-- Agent conventions and boundaries: primer/agents.md
+- Standards (style, commits, branches): https://github.com/arfct/.github/blob/main/primer/standards.md
+- Work tracking: Linear workspace `arfct`, team Artifact (A) — https://github.com/arfct/.github/blob/main/primer/linear.md
+- Bugs: https://github.com/arfct/.github/blob/main/primer/bugs.md · Deployment: https://github.com/arfct/.github/blob/main/primer/deployment.md
+- Agent conventions and boundaries: https://github.com/arfct/.github/blob/main/primer/agents.md
 
 ## This repo
 
