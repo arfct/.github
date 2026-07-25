@@ -1,0 +1,23 @@
+name: Bug report
+description: Something is broken
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      placeholder: "1. Go to …\n2. Click …"
+    validations:
+      required: true
+  - type: input
+    id: platform
+    attributes:
+      label: Platform
+      placeholder: "macOS 15 / Chrome 138, iPhone 16 / iOS 19, …"
