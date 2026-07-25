@@ -9,4 +9,4 @@ This repo follows the Artifact Primer: https://github.com/arfct/.github/tree/mai
 
 ## This repo
 
-This is the arfct org defaults repository and the home of the Artifact Primer. Edits to `primer/` are policy changes—keep them public-safe. `ISSUE_TEMPLATE/` and `PULL_REQUEST_TEMPLATE.md` apply org-wide across all repositories.
+This is the arfct org defaults repository and the home of the Artifact Primer. Edits to `primer/` are policy changes — keep them public-safe. `.github/ISSUE_TEMPLATE/` and `PULL_REQUEST_TEMPLATE.md` apply org-wide across all repositories.
