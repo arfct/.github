@@ -24,4 +24,4 @@ Branches follow `a-<number>-<short-slug>`, which auto-links branches and PRs to 
 
 ## Agents
 
-Agents may create and update issues via the Linear MCP. Status changes and comments should say what changed and why.
+Agents may create and update issues via Linear's MCP (Model Context Protocol) server — the interface AI agents use to read and write issues. Status changes and comments should say what changed and why.
