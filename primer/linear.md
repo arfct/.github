@@ -20,7 +20,7 @@ Plain titles, with enough description to act on. Attach every issue to its proje
 
 ## GitHub integration
 
-Branches follow `a-<number>-<short-slug>`, which auto-links branches and PRs to their Linear issue. Magic words in a PR description — `Fixes A-123` — close the issue on merge.
+Branches follow Linear's suggested name, `<user>/a-<number>-<short-slug>` (copy it from the issue); any branch containing the issue ID auto-links branches and PRs to their Linear issue. Magic words in a PR description — `Fixes A-123` — close the issue on merge.
 
 ## Agents
 

@@ -8,7 +8,7 @@ Read the Primer first — it's the fastest path to how Artifact works. From ther
 
 ## Branching & PRs
 
-Branch off `main` using the Linear-derived format from [standards.md](standards.md): `a-<number>-<short-slug>`. Open a pull request (PR) for anything non-trivial.
+Branch off `main` using the Linear-derived format from [standards.md](standards.md): `<user>/a-<number>-<short-slug>`. Open a pull request (PR) for anything non-trivial.
 
 Solo maintainers may push small fixes directly to `main`. Once a repo has more than one contributor, direct pushes to `main` stop — everything goes through a PR.
 

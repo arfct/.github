@@ -16,7 +16,7 @@ Bugs reported via GitHub are mirrored into Linear during triage. Once fixed, the
 
 ## Fixing
 
-Branch as `a-<number>-<short-slug>`, matching the Linear issue. Include `Fixes A-123` in the pull request (PR) description to auto-close the issue on merge. Add a regression test where the stack has tests.
+Branch as `<user>/a-<number>-<short-slug>`, copied from the Linear issue. Include `Fixes A-123` in the pull request (PR) description to auto-close the issue on merge. Add a regression test where the stack has tests.
 
 ## Verifying
 

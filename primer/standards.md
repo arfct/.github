@@ -36,7 +36,7 @@ Every repo has:
 
 - Commit subjects are imperative: "Add," "Fix," "Update" — not "Added" or "Adding."
 - Branch off `main`.
-- Branch names come from the Linear issue ID: `a-<number>-<short-slug>` (e.g. `a-123-fix-login`). This lets Linear's GitHub integration auto-link branches and PRs to issues.
+- Branch names come from Linear's suggested branch name: `<user>/a-<number>-<short-slug>` (e.g. `alice/a-123-fix-login`) — use Linear's copy-branch-name action rather than typing one. Any branch containing the issue ID auto-links to the issue.
 - Once a repo has more than one contributor, no direct pushes to `main` — use a PR.
 
 ## Docs
