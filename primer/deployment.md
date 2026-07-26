@@ -26,6 +26,16 @@ Most Artifact products run on Cloudflare Workers or Cloudflare Pages. The conven
 
 Which Cloudflare account, zone, and bucket/database bindings back each project is inventory, not process — see `arfct/internal`'s `accounts.md`.
 
+## Secrets
+
+Three kinds of secrets, three homes — nothing secret ever lives in git:
+
+- **Production runtime secrets** (API keys a Worker reads at runtime) — Workers secrets, set with `wrangler secret put` or the Cloudflare dashboard.
+- **Shared CI tokens** (e.g. a Cloudflare deploy token used by GitHub Actions) — org-level Actions secrets on GitHub, scoped to the repos that need them. Set once, rotate once.
+- **Everything humans handle** (account credentials, personal API tokens, local `.dev.vars` values) — the shared password manager. Repos commit a `.dev.vars.example` template with names only; real values come from the vault.
+
+Which vault and which accounts: see `arfct/internal`'s `accounts.md`.
+
 ## App stores
 
 Native apps ship through the platform stores: iOS via App Store Connect, Android via Google Play Console. Bundle/package IDs follow `com.artifact.<product>` — confirmed for Villainy (`com.artifact.villainy`).
