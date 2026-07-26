@@ -19,6 +19,10 @@ const debouncedSearch = debounce(handleSearch, 300);
 
 Keep functions small and focused on one thing. Remove abstractions that don't earn their keep — a layer of indirection should make the code easier to follow, not harder.
 
+## Formatting & linting
+
+JavaScript/TypeScript projects use [Biome](https://biomejs.dev) for both formatting and linting — one tool, one `biome.json` at the repo root, no Prettier/ESLint split. Run `biome check --write` before committing; don't hand-format around it or disable rules without a comment saying why.
+
 ## Repo hygiene
 
 Every repo has:

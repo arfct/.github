@@ -7,6 +7,7 @@ The tools Artifact builds with, grouped by area — what each one is used for, n
 - **Claude Code** — primary tool for agent-assisted development, following the Superpowers plugin conventions for skills and workflows.
 - **GitHub** (`gh` CLI) — hosts every repo; issues, pull requests, and Actions runs are usually driven through the `gh` CLI.
 - **Wrangler** — Cloudflare's CLI for local development and deployment of Worker and Pages projects.
+- **Biome** — formatter and linter for JavaScript/TypeScript projects; see [standards.md](standards.md#formatting--linting).
 - **Eleventy** — static site generator behind the Catalogue Raisonné template.
 - **Xcode** — builds and ships the Swift-based iOS, watchOS, and macOS apps.
 - **Gradle** — builds the Kotlin-based Android app.
