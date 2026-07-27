@@ -1,12 +1,7 @@
 # CLAUDE.md
 
-This repo follows the Artifact Primer: https://github.com/arfct/.github/tree/main/primer
-
-- Standards (style, commits, branches): primer/standards.md
-- Work tracking: Linear workspace `arfct`, team Artifact (A) — primer/linear.md
-- Bugs: primer/bugs.md · Deployment: primer/deployment.md
-- Agent conventions and boundaries: primer/agents.md
+This repo follows the Artifact Primer: https://github.com/arfct/ops/tree/main/primer
 
 ## This repo
 
-This is the arfct org defaults repository and the home of the Artifact Primer. Edits to `primer/` are policy changes — keep them public-safe. `.github/ISSUE_TEMPLATE/` and `PULL_REQUEST_TEMPLATE.md` apply org-wide across all repositories.
+This is the arfct org defaults repository — only files GitHub sources org-wide belong here: `profile/README.md` (org profile), `.github/ISSUE_TEMPLATE/`, and `PULL_REQUEST_TEMPLATE.md`, which apply to every arfct repo without its own. The Primer and its templates live in `arfct/ops`.
